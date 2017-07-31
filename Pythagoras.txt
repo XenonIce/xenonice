@@ -1,0 +1,17 @@
+EXPORT Pythagoras()
+BEGIN
+
+//Variablen festlegen
+LOCAL Gegenkathete,Ankathete,Hypotenuse;
+
+// Menüauswahl
+CHOOSE (F,"Fehlende Seite","Gegenkathete","Ankathete","Hypotenuse"); 
+
+//Berechnung der fehlenden Seite
+IF F == 3 THEN INPUT(Gegenkathete,"Länge der Gegenkathete eingeben ")+INPUT(Ankathete,"Länge der Ankathete eingeben")+MSGBOX("Länge der Hypotenuse= " +√(Gegenkathete^2+Ankathete^2));
+ELSE IF F == 1 THEN INPUT(Hypotenuse,"Länge der Hypotenuse eingeben")+INPUT(Ankathete,"Länge der Ankatete eingeben")+MSGBOX("Länge der Gegenkathete= " +√(Hypotenuse^2-Ankathete^2));
+ELSE INPUT(Hypotenuse, "Länge der Hypotenuse eingeben")+INPUT(Gegenkathete,"Länge der Gegenkathete eingeben")+MSGBOX("Länge der Gegenkathete=" +√(Hypotenuse^2-Gegenkathete^2));
+
+END;
+END;
+END;
