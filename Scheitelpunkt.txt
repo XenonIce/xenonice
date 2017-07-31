@@ -1,0 +1,16 @@
+EXPORT Scheitelpunkt()
+
+BEGIN
+
+//Variablen festlegen
+LOCAL a,b,c;
+
+//Werte für a bis c eingeben
+INPUT(a,"a");
+INPUT(b,"b");
+INPUT(c,"c");
+
+//Scheitelpunkt mit Scheitelpunktformel berechnen
+MSGBOX("S (" + -b/(2*a) + "|" + (c-(b^2/(4*a)) + ")"));
+
+END;

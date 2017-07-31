@@ -1,0 +1,23 @@
+EXPORT Mittelwert ()
+
+BEGIN
+
+//Variablen festlegen
+LOCAL Anzahl,Summe;
+ 
+//Anweisung
+msgbox("In die folgende Liste Werte eintragen. Weiter mit OK...");
+
+//Aufruf von L1
+EDITLIST(L1);
+
+//Summe aller Werte aus L1 berechnen
+Summe:=sum(L1);
+
+//Anzahl Werte L1
+Anzahl:=SIZE(L1);
+
+//Ausgabe Mittelwert
+MSGBOX("Mittelwert= " + Summe/Anzahl);
+
+END;
