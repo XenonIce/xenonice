@@ -1,3 +1,7 @@
+//Copyright 2017 by XenonIce
+//xenonicelp@gmail.com
+//www.github.com/XenonIce
+
 EXPORT Scheitelpunkt()
 
 BEGIN
