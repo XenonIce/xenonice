@@ -1,7 +1,6 @@
 
-//Copyright 2017 by XenonIce
-//xenonicelp@gmail.com
-//www.github.com/XenonIce
+//Copyright 2017 by konstizockt
+//www.github.com/konstizockt
 
 EXPORT Pythagoras()
 BEGIN
